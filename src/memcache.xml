@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<pool id="bi_storm" initConn="5" minConn="10" maxConn="50"
+		maintSleep="30000" socketTO="3000" socketConnectTO="3000"
+		defaultExpiryMinutes="720" compressEnable="true" isJDK="true"
+		versionEnable="false" compressThreshold="4096">
+	</pool>
+</config>
